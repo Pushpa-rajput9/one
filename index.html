@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom-part3-js</title>
+  </head>
+  <body>
+    <h1>Hello 👋🤓</h1>
+    <p id="js"></p>
+    <button onclick="hey()" id="jss">Click on me🫣</button>
+    <script>
+      document.addEventListener("dblclick", hell);
+      function hell() {
+        document.getElementById("js").innerText = "Pushpa Rajput";
+      }
+      function hey() {
+        document.getElementById("js").innerText =
+          "I Love You💕 Aadiii (❁´◡`❁)🤗";
+
+        document.getElementById("jss").style.color = "red";
+        document.getElementById("js").style.color = "red";
+        document.getElementById("js").style.fontSize = "22px";
+        document.getElementById("jss").style.backgroundColor = "black";
+        document.getElementById("jss").style.padding = "20px";
+        document.getElementById("jss").style.border = "5px solid grey";
+        document.getElementById("jss").style.borderRadius = "10px";
+        document.getElementById("jss").style.cursor = "pointer";
+        document.getElementById("jss").style.fontSize = "22px";
+      }
+    </script>
+  </body>
+</html>
